@@ -208,7 +208,7 @@ Now you're ready to run your FastAPI app.
 2. Run the FastAPI application with Uvicorn. In your terminal, navigate to the directory where `index.py` (or `main.py`) is located and run:
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn index:app --reload
 ```
 
 Here’s what each part of the command means:
